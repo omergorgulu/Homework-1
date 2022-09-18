@@ -2,10 +2,10 @@ package arrays;
 
 public class Main {
     public static void main(String[] args) {
-        String ogrenci1 = "Engin";
-        String ogrenci2 = "Derin";
-        String ogrenci3 = "Salih";
-        String ogrenci4 = "Ahmet";
+        String ogrenci1 = "Ömer";
+        String ogrenci2 = "Göktuğ";
+        String ogrenci3 = "Kerem";
+        String ogrenci4 = "Tuğba";
 
         System.out.println(ogrenci1);
         System.out.println(ogrenci2);
@@ -14,10 +14,11 @@ public class Main {
 
         System.out.println("-------------------------");
 
-        String[] ogrenciler = new String[3];
-        ogrenciler[0] = "Engin";
-        ogrenciler[1] = "Derin";
-        ogrenciler[2] = "Salih";
+        String[] ogrenciler = new String[4];
+        ogrenciler[0] = "Ömer";
+        ogrenciler[1] = "Göktuğ";
+        ogrenciler[2] = "Kerem";
+        ogrenciler[3] = "Tuğba";
 
         for (int i = 0; i < ogrenciler.length; i++) {
             System.out.println(ogrenciler[i]);
